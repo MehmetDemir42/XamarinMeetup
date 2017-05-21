@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MeetUp_LocalStorage.Views.MainPage"
+             Title="Xamarin MeetUp Demo">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <StackLayout>
+                <Label HorizontalOptions="Center" Text="Xamarin Forms Local Storage ile çalışma"></Label>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="btnKayit" Text="Kayit İşlemleri" Clicked="BtnKayit_OnClicked"></Button>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="btnGetir" Text="Kayit Görüntüleme İşlemleri" Clicked="BtnGetir_OnClicked"></Button>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="btnStream" Text="Stream İşlemleri" Clicked="BtnStream_OnClicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
